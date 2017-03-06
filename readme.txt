@@ -1,4 +1,3 @@
-智能车工程版本控制
-东北大学秦皇岛分校
-摄像头直立1队
-2017年3月6号
+smartcar project copy 
+This is the first try.
+//will delete
