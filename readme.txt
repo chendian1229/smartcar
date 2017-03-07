@@ -1,3 +1,7 @@
-smartcar project copy 
-This is the first try.
+东北大学秦皇岛分校
+直立摄像头1队
+智能车文件备份
 Date:2017.3.7
+
+1.增加原先测试的线性CCD测试程序。-2017.3.7
+
