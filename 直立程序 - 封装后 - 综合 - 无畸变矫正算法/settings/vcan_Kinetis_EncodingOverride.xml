@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>C:\Users\YangBing\Desktop\LCD_&#x6444;&#x50CF;&#x5934;\App\main.c</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\YangBing\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x5e26;&#x9065;&#x63A7;\Board_User\inc\ctr_motor.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\YangBing\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x5e26;&#x9065;&#x63A7;\Board_User\inc\encoder.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\YangBing\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x5e26;&#x9065;&#x63A7;\Board_User\inc\mpu6050.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\YangBing\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x5e26;&#x9065;&#x63A7;\Board_User\inc\pid.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\YangBing\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x5e26;&#x9065;&#x63A7;\Lib_User\inc\Car_Control.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\YangBing\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F;\App\main.c</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>E:\&#x6587;&#x4eF6;&#x8D44;&#x6599;\&#x9879;&#x76ee;&#x8FDB;&#x884C;&#x65F6;\17&#x5e74;&#x4e0A;  &#x5927;&#x4e09;&#x4e0B;  &#x667A;&#x80FD;&#x8F66;\&#x5175;&#x7684;&#x7A0B;&#x5e8F;\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x7eFC;&#x5408;\Lib_User\inc\image_processing.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+</userOverrides>
+
+
