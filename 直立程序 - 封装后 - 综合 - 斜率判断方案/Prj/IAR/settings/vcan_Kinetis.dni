@@ -41,12 +41,6 @@ ITMportsEnable=0
 ITMportsTermIO=0
 ITMportsLogFile=0
 ITMlogFile=$PROJ_DIR$\ITM.log
-[Trace1]
-Enabled=0
-ShowSource=1
-[Trace2]
-Enabled=0
-ShowSource=0
 [SWOTraceWindow]
 PcSampling=0
 InterruptLogs=0
