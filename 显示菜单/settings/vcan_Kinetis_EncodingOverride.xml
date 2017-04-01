@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>C:\Users\Administrator\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x7eFC;&#x5408; - &#x7B80;&#x6613;&#x65B9;&#x6848;\App\Inc\MK60_conf.h</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\Administrator\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x7eFC;&#x5408; - &#x7B80;&#x6613;&#x65B9;&#x6848;\App\main_menu.c</path>
+    <encoding>UTF-8</encoding>
+  </override>
+  <override>
+    <path>C:\Users\Administrator\Desktop\&#x76F4;&#x7ACB;&#x7A0B;&#x5e8F; - &#x5C01;&#x88C5;&#x540e; - &#x7eFC;&#x5408; - &#x7B80;&#x6613;&#x65B9;&#x6848;\Chip\src\MK60_gpio.c</path>
+    <encoding>UTF-8</encoding>
+  </override>
+</userOverrides>
+
+

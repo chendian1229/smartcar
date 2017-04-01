@@ -1,0 +1,578 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.2.7424/W32 for ARM                 01/Apr/2017  20:16:29
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map
+#    Command line =  
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\Car_Control.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\ctr_motor.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\diskio.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\encoder.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\ff.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\font.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\ftoa.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\image_processing.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\main.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\main_menu.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\misc.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_adc.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_can.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_conf.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_dac.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_dma.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_DWT.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_flash.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_flexbus.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_ftm.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_gpio.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_i2c.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_it.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_lptmr.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_mcg.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_PIT.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_port.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_rtc.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_sdhc.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_spi.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_SysTick.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_uart.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_usb.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\MK60_wdog.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\mpu6050.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\pid.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\startup_MK60DZ10.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\system_MK60DZ10.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\USB.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\USB_CDC.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_ASCII.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_BMP.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_camera.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_computer.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\vcan_img2sd.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_key.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_key_event.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_LCD.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_LCD_CH.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_LCD_ILI9341.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_LCD_ST7735R.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_LCD_ST7735S.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_LED.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_menu.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_MMA7455.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_NRF24L0.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_NRF24L0_MSG.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_OV7725_Eagle.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_OV7725_Wolf.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_RTC_count.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_SCCB.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\vcan_sd_app.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\Vcan_touch.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_TSL1401.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\VCAN_UI_VAR.o"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Obj\vectors.o" --redirect
+#        _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb -o
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\Exe\vcan_Kinetis.out" --map
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\DZ10_Debug\List\vcan_Kinetis.map" --config
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\config files\vcan_ROM_K60N512.icf"
+#        "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 -
+#        简易方案\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a" --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00080000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"P1", part 1 of 2:                             0x0
+  .rodata              const    0x00000410     0x0  zero_init3.o [5]
+
+"A2":                                          0x8
+  .noinit              ro code  0x00000410     0x8  startup_MK60DZ10.o [1]
+                              - 0x00000418     0x8
+
+"P1", part 2 of 2:                          0x5570
+  .text                ro code  0x00000418  0x1c2c  VCAN_LCD_ST7735S.o [1]
+  .text                ro code  0x00002044   0x128  MK60_gpio.o [1]
+  .text                ro code  0x0000216c    0xb0  MK60_port.o [1]
+  .text                ro code  0x0000221c    0x50  MK60_lptmr.o [1]
+  Veneer               ro code  0x0000226c     0x8  - Linker created -
+  Veneer               ro code  0x00002274     0x8  - Linker created -
+  .text                ro code  0x0000227c   0x140  MK60_conf.o [1]
+  .text                ro code  0x000023bc    0x70  VCAN_LED.o [1]
+  .text                ro code  0x0000242c    0x24  printf.o [3]
+  .text                ro code  0x00002450   0x24c  MK60_uart.o [1]
+  .text                ro code  0x0000269c   0x220  VCAN_key.o [1]
+  .text                ro code  0x000028bc   0xbee  xprintflarge_nomb.o [3]
+  .text                ro code  0x000034aa    0x22  zero_init3.o [5]
+  .text                ro code  0x000034cc    0x16  strchr.o [5]
+  .text                ro code  0x000034e4    0x36  strlen.o [5]
+  .text                ro code  0x0000351c    0x58  memchr.o [5]
+  .text                ro code  0x00003574    0xee  I64DivMod.o [5]
+  .text                ro code  0x00003664    0x76  ABImemcpy_unaligned.o [5]
+  .text                ro code  0x000036da    0x42  xdnorm.o [4]
+  .text                ro code  0x0000371c    0x2e  DblCmpLe.o [4]
+  .text                ro code  0x0000374c   0x1a2  DblMul.o [4]
+  .text                ro code  0x000038f0   0x246  DblDiv.o [4]
+  .text                ro code  0x00003b38    0x2c  DblToI32.o [4]
+  .text                ro code  0x00003b64    0x1c  I32ToDbl.o [4]
+  .text                ro code  0x00003b80   0x180  DblSub.o [4]
+  .text                ro code  0x00003d00    0x6c  localeconv.o [3]
+  .text                ro code  0x00003d6c     0xe  div.o [3]
+  .text                ro code  0x00003d7c     0x2  I64DivZer.o [5]
+  .text                ro code  0x00003d80    0xd4  DblAdd.o [4]
+  .text                ro code  0x00003e54     0x2  xtls.o [3]
+  .data_init                    0x00003e58   0x7fc  <Block>
+    Initializer bytes  ro data  0x00003e58   0x7fc  <for .data-1>
+  Veneer               ro code  0x00004654     0x8  - Linker created -
+  .text                ro code  0x0000465c   0x3c8  MK60_mcg.o [1]
+  .text                ro code  0x00004a24   0x1c6  VCAN_menu.o [1]
+  .text                ro code  0x00004bec   0x1b4  VCAN_LCD_CH.o [1]
+  CodeRelocate                  0x00004da0   0x1c8  <Block>
+    Initializer bytes  ro data  0x00004da0   0x1c8  <for CodeRelocateRam-1>
+  .text                ro code  0x00004f68   0x148  main_menu.o [1]
+  .text                ro code  0x000050b0   0x140  VCAN_LCD.o [1]
+  .text                ro code  0x000051f0   0x130  system_MK60DZ10.o [1]
+  .text                ro code  0x00005320    0x40  MK60_wdog.o [1]
+  .text                ro code  0x00005360    0x70  main.o [1]
+  .text                ro code  0x000053d0    0x50  misc.o [1]
+  .text                ro code  0x00005420    0x7c  MK60_PIT.o [1]
+  .rodata              const    0x0000549c    0xa0  main_menu.o [1]
+  .rodata              const    0x0000553c    0x60  main_menu.o [1]
+  .rodata              const    0x0000559c    0x60  VCAN_LCD_ST7735S.o [1]
+  .rodata              const    0x000055fc    0x5c  MK60_flash.o [1]
+  .rodata              const    0x00005658    0x58  MK60_gpio.o [1]
+  .rodata              const    0x000056b0    0x58  MK60_PIT.o [1]
+  .rodata              const    0x00005708    0x58  MK60_uart.o [1]
+  .rodata              const    0x00005760    0x54  misc.o [1]
+  .rodata              const    0x000057b4    0x3c  MK60_conf.o [1]
+  .text                ro code  0x000057f0    0x28  data_init.o [5]
+  .rodata              const    0x00005818    0x24  MK60_conf.o [1]
+  .iar.init_table      const    0x0000583c    0x10  - Linker created -
+  .rodata              const    0x0000584c    0x20  MK60_conf.o [1]
+  .text                ro code  0x0000586c    0x1a  cmain.o [5]
+  .text                ro code  0x00005886     0x4  low_level_init.o [3]
+  .text                ro code  0x0000588a     0x4  exit.o [3]
+  .text                ro code  0x00005890     0xa  cexit.o [5]
+  .text                ro code  0x0000589c     0xc  XXexit.o [5]
+  .text                ro code  0x000058a8    0x16  xprout.o [3]
+  .text                ro code  0x000058c0     0xc  putchar.o [3]
+  .rodata              const    0x000058cc    0x14  MK60_conf.o [1]
+  .text                ro code  0x000058e0     0xc  cstartup_M.o [5]
+  .rodata              const    0x000058ec     0x4  main_menu.o [1]
+  .rodata              const    0x000058f0     0x4  main_menu.o [1]
+  .rodata              const    0x000058f4     0x4  VCAN_LCD.o [1]
+  .rodata              const    0x000058f8     0x4  VCAN_LCD.o [1]
+  .rodata              const    0x000058fc     0x4  VCAN_LCD_CH.o [1]
+  Initializer bytes    ro data  0x00005900    0x88  <for P2 s0>
+                              - 0x00005988  0x5570
+
+"P2":                                        0xae4
+  .data                         0x1fff0410   0x7fc  <Block>
+    .data-1                     0x1fff0410   0x7fc  <Init block>
+      .data            inited   0x1fff0410    0x18  main_menu.o [1]
+      .data            inited   0x1fff0428     0x1  main_menu.o [1]
+      .data            inited   0x1fff042c   0x708  MK60_conf.o [1]
+      .data            inited   0x1fff0b34    0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff0b48    0x44  MK60_mcg.o [1]
+      .data            inited   0x1fff0b8c     0x4  MK60_mcg.o [1]
+      .data            inited   0x1fff0b90    0x14  MK60_port.o [1]
+      .data            inited   0x1fff0ba4    0x18  MK60_uart.o [1]
+      .data            inited   0x1fff0bbc     0x8  VCAN_key.o [1]
+      .data            inited   0x1fff0bc4     0x2  VCAN_LCD_ST7735S.o [1]
+      .data            inited   0x1fff0bc6     0x2  VCAN_LCD_ST7735S.o [1]
+      .data            inited   0x1fff0bc8     0x4  VCAN_LED.o [1]
+      .data            inited   0x1fff0bcc    0x40  xfiles.o [3]
+  CodeRelocateRam               0x1fff0c0c   0x1c8  <Block>
+    CodeRelocateRam-1           0x1fff0c0c   0x1c8  <Init block>
+      Veneer           inited   0x1fff0c0c     0x8  - Linker created -
+      Veneer           inited   0x1fff0c14     0x8  - Linker created -
+      .textrw          inited   0x1fff0c1c   0x168  MK60_flash.o [1]
+      .textrw          inited   0x1fff0d84    0x50  MK60_mcg.o [1]
+  .bss                          0x1fff0dd4    0x95  <Block>
+    .bss               zero     0x1fff0dd4     0x4  main_menu.o [1]
+    .bss               zero     0x1fff0dd8     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff0ddc     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff0de0     0x4  system_MK60DZ10.o [1]
+    .bss               zero     0x1fff0de4    0x28  VCAN_key.o [1]
+    .bss               zero     0x1fff0e0c     0x8  VCAN_key.o [1]
+    .bss               zero     0x1fff0e14    0x50  xfiles.o [3]
+    .bss               zero     0x1fff0e64     0x1  main_menu.o [1]
+    .bss               zero     0x1fff0e65     0x1  VCAN_key.o [1]
+    .bss               zero     0x1fff0e66     0x1  VCAN_key.o [1]
+    .bss               zero     0x1fff0e67     0x1  VCAN_key.o [1]
+    .bss               zero     0x1fff0e68     0x1  VCAN_LCD_ST7735S.o [1]
+  P2 s0                         0x1fff0e6c    0x88  <Init block>
+    __DLIB_PERTHREAD   inited   0x1fff0e6c    0x88  localeconv.o [3]
+                              - 0x1fff0ef4   0xae4
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x95:
+          0x1fff0dd4  0x95
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\Prj\IAR\DZ10_Debug\Obj: [1]
+    MK60_PIT.o                 124                88
+    MK60_conf.o                320             1 951    1 800
+    MK60_flash.o                        360      452
+    MK60_gpio.o                296               108       20
+    MK60_lptmr.o                80
+    MK60_mcg.o                 968       80      152       72
+    MK60_port.o                176                20       20
+    MK60_uart.o                588               112       24
+    MK60_wdog.o                 64
+    VCAN_LCD.o                 320                 8
+    VCAN_LCD_CH.o              436                 4
+    VCAN_LCD_ST7735S.o       7 212               100        5
+    VCAN_LED.o                 112                 4        4
+    VCAN_key.o                 544                 8       59
+    VCAN_menu.o                454
+    main.o                     112
+    main_menu.o                328               289       30
+    misc.o                      80                84
+    startup_MK60DZ10.o           8
+    system_MK60DZ10.o          304                         12
+    vectors.o                                  1 040
+    ---------------------------------------------------------
+    Total:                  12 526      440    4 420    2 046
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    div.o                       14
+    exit.o                       4
+    localeconv.o               108               136      136
+    low_level_init.o             4
+    printf.o                    36
+    putchar.o                   12
+    xfiles.o                                      64      144
+    xprintflarge_nomb.o      3 054
+    xprout.o                    22
+    xtls.o                       2
+    ---------------------------------------------------------
+    Total:                   3 256               200      280
+
+m7M_tl.a: [4]
+    DblAdd.o                   212
+    DblCmpLe.o                  46
+    DblDiv.o                   582
+    DblMul.o                   418
+    DblSub.o                   384
+    DblToI32.o                  44
+    I32ToDbl.o                  28
+    xdnorm.o                    66
+    ---------------------------------------------------------
+    Total:                   1 780
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o      118
+    I64DivMod.o                238
+    I64DivZer.o                  2
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    memchr.o                    88
+    strchr.o                    22
+    strlen.o                    54
+    zero_init3.o                34
+    ---------------------------------------------------------
+    Total:                     656
+
+    Gaps                        24                          3
+    Linker created              24       16       32
+-------------------------------------------------------------
+    Grand Total:            18 266      456    4 652    2 329
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff0dd4          --   Gb  - Linker created -
+.bss$$Limit             0x1fff0e69          --   Gb  - Linker created -
+.data$$Base             0x1fff0410          --   Gb  - Linker created -
+.data$$Limit            0x1fff0c0c          --   Gb  - Linker created -
+.data_init$$Base        0x00003e58          --   Gb  - Linker created -
+.data_init$$Limit       0x00004654          --   Gb  - Linker created -
+?main                   0x0000586d         Code  Gb  cmain.o [5]
+ASSERT_FAILED_STR       0x00005818   0x24  Data  Gb  MK60_conf.o [1]
+CodeRelocate$$Base      0x00004da0          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00004f68          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff0c0c          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff0dd4          --   Gb  - Linker created -
+GPIOX                   0x1fff0b34   0x14  Data  Gb  MK60_gpio.o [1]
+KEY_PTxn                0x1fff0bbc    0x8  Data  Gb  VCAN_key.o [1]
+LCD_FChar_CH            0x00004bed  0x12e  Code  Gb  VCAN_LCD_CH.o [1]
+LCD_FStr_CH             0x00004d35   0x6c  Code  Gb  VCAN_LCD_CH.o [1]
+LCD_ST7735S_dir         0x000013d7  0xa0c  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_init        0x00000419  0xfbe  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_ptlon       0x00001df9  0x21c  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_clear               0x000051ad   0x28  Code  Gb  VCAN_LCD.o [1]
+LCD_init                0x000050b1   0x2c  Code  Gb  VCAN_LCD.o [1]
+LCD_rectangle           0x000050dd   0xd0  Code  Gb  VCAN_LCD.o [1]
+LED_PTxn                0x1fff0bc8    0x4  Data  Gb  VCAN_LED.o [1]
+LoadInt                 0x00002e39   0x6e  Code  Lc  xprintflarge_nomb.o [3]
+NVIC_EnableIRQ          0x00005361   0x14  Code  Lc  main.o [1]
+NVIC_SystemReset        0x0000227d   0x1a  Code  Lc  MK60_conf.o [1]
+PORTX                   0x1fff0b90   0x14  Data  Gb  MK60_port.o [1]
+Region$$Table$$Base     0x0000583c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000584c          --   Gb  - Linker created -
+Reset_Handler           0x00000411         Code  Gb  startup_MK60DZ10.o [1]
+ST7735S_get_h           0x00002015    0x6  Code  Gb  VCAN_LCD_ST7735S.o [1]
+ST7735S_get_w           0x0000201b    0x6  Code  Gb  VCAN_LCD_ST7735S.o [1]
+UARTN                   0x1fff0ba4   0x18  Data  Gb  MK60_uart.o [1]
+_GenldLargeNoMb         0x0000322d  0x236  Code  Lc  xprintflarge_nomb.o [3]
+_LdtobLargeNoMb         0x00002fad  0x27a  Code  Lc  xprintflarge_nomb.o [3]
+_LitobLargeNoMb         0x00002ea7  0x106  Code  Lc  xprintflarge_nomb.o [3]
+_Locale_aeabi_lconv     0x1fff0ebc   0x38  Data  Gb  localeconv.o [3]
+_Locale_lconv           0x1fff0e6c   0x50  Data  Gb  localeconv.o [3]
+_PrintfLargeNoMb        0x000028bd  0x576  Code  Gb  xprintflarge_nomb.o [3]
+_Prout                  0x000058a9   0x16  Code  Gb  xprout.o [3]
+_PutcharsLargeNoMb      0x00003463   0x2e  Code  Lc  xprintflarge_nomb.o [3]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          --   Gb  command line/config [2]
+__aeabi_cdcmple         0x0000371d         Code  Gb  DblCmpLe.o [4]
+__aeabi_d2uiz           0x00003b39         Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x000038f1         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0000374d         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x00003b81         Code  Gb  DblSub.o [4]
+__aeabi_ldiv0           0x00003d7d         Code  Gb  I64DivZer.o [5]
+__aeabi_ui2d            0x00003b65         Code  Gb  I32ToDbl.o [4]
+__aeabi_uldivmod        0x00003575         Code  Gb  I64DivMod.o [5]
+__as_entries_start      0xffffffff          --   Gb  command line/config [2]
+__as_table_start        0xffffffff          --   Gb  command line/config [2]
+__cmain                 0x0000586d         Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410          --   Gb  command line/config [2]
+__exit                  0x0000589d         Code  Gb  XXexit.o [5]
+__iar_Dnorm             0x000036db   0x42  Code  Gb  xdnorm.o [4]
+__iar_Locale_lconv_init
+                        0x00003d01   0x3a  Code  Gb  localeconv.o [3]
+__iar_Memchr            0x0000351d         Code  Gb  memchr.o [5]
+__iar_Stdout            0x1fff0bcc   0x40  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x000034cd         Code  Gb  strchr.o [5]
+__iar_d2uiz             0x00003b45         Code  Gb  DblToI32.o [4]
+__iar_dadd              0x00003d81         Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x000057f1   0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x00003e55    0x2  Code  Gb  xtls.o [3]
+__iar_dsub              0x00003b95         Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x00003ba7         Code  Gb  DblSub.o [4]
+__iar_program_start     0x000058e1         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x00003b69         Code  Gb  I32ToDbl.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x00003665         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x00003685         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x00003685         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x000034ab   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x00005887    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x00005879         Code  Gb  cmain.o [5]
+_exit                   0x00005891         Code  Gb  cexit.o [5]
+_main                   0x00005883         Code  Gb  cmain.o [5]
+assert_failed           0x00002297   0x26  Code  Gb  MK60_conf.o [1]
+bus_clk_khz             0x1fff0de0    0x4  Data  Gb  system_MK60DZ10.o [1]
+common_startup          0x0000524f   0x98  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff0dd8    0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff0ddc    0x4  Data  Gb  system_MK60DZ10.o [1]
+default_isr             0x0000236b   0x30  Code  Gb  MK60_conf.o [1]
+div                     0x00003d6d    0xe  Code  Gb  div.o [3]
+exit                    0x0000588b    0x4  Code  Gb  exit.o [3]
+flash_cmd               0x1fff0c1d   0x20  Code  Gb  MK60_flash.o [1]
+flash_erase_sector      0x1fff0c6d   0x58  Code  Gb  MK60_flash.o [1]
+flash_init              0x1fff0c3d   0x30  Code  Gb  MK60_flash.o [1]
+flash_write             0x1fff0cc5   0x8e  Code  Gb  MK60_flash.o [1]
+fputc                   0x000022bd   0x14  Code  Gb  MK60_conf.o [1]
+get_key_msg             0x00002795   0x62  Code  Gb  VCAN_key.o [1]
+gpio_get                0x0000212b   0x3a  Code  Gb  MK60_gpio.o [1]
+gpio_init               0x00002045   0xae  Code  Gb  MK60_gpio.o [1]
+gpio_turn               0x000020f3   0x38  Code  Gb  MK60_gpio.o [1]
+key_IRQHandler          0x000027f7   0xae  Code  Gb  VCAN_key.o [1]
+key_check               0x00002709   0x2a  Code  Gb  VCAN_key.o [1]
+key_get                 0x000026ef   0x1a  Code  Gb  VCAN_key.o [1]
+key_init                0x0000269d   0x52  Code  Gb  VCAN_key.o [1]
+key_msg                 0x1fff0de4   0x28  Data  Gb  VCAN_key.o [1]
+key_msg_flag            0x1fff0e67    0x1  Data  Gb  VCAN_key.o [1]
+key_msg_front           0x1fff0e65    0x1  Data  Gb  VCAN_key.o [1]
+key_msg_rear            0x1fff0e66    0x1  Data  Gb  VCAN_key.o [1]
+led_func                0x0000502f   0x60  Code  Gb  main_menu.o [1]
+led_func_name           0x0000549c   0xa0  Data  Lc  main_menu.o [1]
+led_init                0x000023bd   0x3a  Code  Gb  VCAN_LED.o [1]
+led_turn                0x000023f7   0x32  Code  Gb  VCAN_LED.o [1]
+localeconv              0x00003d3b   0x16  Code  Gb  localeconv.o [3]
+lptmr_delay_ms          0x0000221d   0x40  Code  Gb  MK60_lptmr.o [1]
+main                    0x00005391   0x30  Code  Gb  main.o [1]
+main_func               0x00004fcf   0x60  Code  Gb  main_menu.o [1]
+main_func_name          0x0000553c   0x60  Data  Lc  main_menu.o [1]
+main_menu               0x1fff0410   0x18  Data  Lc  main_menu.o [1]
+main_menu_deal          0x00004f85   0x1a  Code  Lc  main_menu.o [1]
+main_menu_init          0x00004f69   0x1c  Code  Lc  main_menu.o [1]
+main_menu_max           0x1fff0428    0x1  Data  Lc  main_menu.o [1]
+main_menu_new           0x1fff0e64    0x1  Data  Lc  main_menu.o [1]
+main_menu_site          0x1fff0dd4    0x4  Data  Lc  main_menu.o [1]
+main_menu_task          0x00004f9f   0x30  Code  Gb  main_menu.o [1]
+mcg_cfg                 0x1fff0b48   0x44  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff0b8c    0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count           0x0000465d  0x2fa  Code  Gb  MK60_mcg.o [1]
+memchr                  0x0000351d         Code  Gb  memchr.o [5]
+menu_deal               0x00004a4d  0x10c  Code  Gb  VCAN_menu.o [1]
+menu_display            0x00004b59   0x92  Code  Gb  VCAN_menu.o [1]
+menu_init               0x00004a25   0x28  Code  Gb  VCAN_menu.o [1]
+obuf                    0x1fff0e14   0x50  Data  Lc  xfiles.o [3]
+pit_hander              0x00005375   0x1c  Code  Gb  main.o [1]
+pit_init                0x00005421   0x6c  Code  Gb  MK60_PIT.o [1]
+pll_init                0x00004957   0xb2  Code  Gb  MK60_mcg.o [1]
+port_init               0x0000216d   0x44  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x000021b1   0x62  Code  Gb  MK60_port.o [1]
+printf                  0x0000242d   0x24  Code  Gb  printf.o [3]
+putchar                 0x000058c1    0xc  Code  Gb  putchar.o [3]
+send_key_msg            0x00002733   0x62  Code  Gb  VCAN_key.o [1]
+set_sys_dividers        0x1fff0d85   0x50  Code  Gb  MK60_mcg.o [1]
+set_vector_handler      0x000053f3   0x22  Code  Gb  misc.o [1]
+st7735s_dir             0x1fff0e68    0x1  Data  Gb  VCAN_LCD_ST7735S.o [1]
+st7735s_h               0x1fff0bc4    0x2  Data  Gb  VCAN_LCD_ST7735S.o [1]
+st7735s_w               0x1fff0bc6    0x2  Data  Gb  VCAN_LCD_ST7735S.o [1]
+start                   0x000051f1   0x22  Code  Gb  system_MK60DZ10.o [1]
+start_check             0x000022d1   0x9a  Code  Gb  MK60_conf.o [1]
+strchr                  0x000034cd         Code  Gb  strchr.o [5]
+strlen                  0x000034e5         Code  Gb  strlen.o [5]
+sysinit                 0x00005213   0x3c  Code  Gb  system_MK60DZ10.o [1]
+uart_init               0x00002451  0x218  Code  Gb  MK60_uart.o [1]
+uart_putchar            0x00002669   0x1a  Code  Gb  MK60_uart.o [1]
+vector_str              0x1fff042c  0x708  Data  Gb  MK60_conf.o [1]
+wdog_disable            0x00005321   0x16  Code  Gb  MK60_wdog.o [1]
+wdog_unlock             0x00005337   0x20  Code  Lc  MK60_wdog.o [1]
+write_vtor              0x000053d1   0x22  Code  Gb  misc.o [1]
+
+
+[1] = C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\Prj\IAR\DZ10_Debug\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+
+  18 266 bytes of readonly  code memory
+     456 bytes of readwrite code memory
+   4 652 bytes of readonly  data memory
+   2 329 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
