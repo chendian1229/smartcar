@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>110</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory><item>p_l.j</item></DisasmHistory>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <WATCH_1><expressions><item>zfx_kd</item><item>dibu_i</item><item>bj_kd</item><item>lx</item><item>rx</item><item>ct_zfx</item><item>zfx_db_i</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>100</item><item>150</item><item>100</item><item>100</item></col-widths><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></WATCH_1></Static>
+    <Windows>
+      
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-22027-2483</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>vcan_Kinetis</ExpandedNode><ExpandedNode>vcan_Kinetis/App</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-24006-24275</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-31346-25979</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-27981-3713</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\inc\common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>536</YPos2><SelStart2>26184</SelStart2><SelEnd2>26184</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>263</SelStart2><SelEnd2>263</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Image\small func\_small_func_.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>3</YPos2><SelStart2>877</SelStart2><SelEnd2>877</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Image\small func\i_f_edge.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>410</YPos2><SelStart2>9709</SelStart2><SelEnd2>9709</SelEnd2></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-048F60F0><key>iaridepm.enu1</key></Toolbar-048F60F0><Toolbar-14282BF8><key>debuggergui.enu1</key></Toolbar-14282BF8><Toolbar-142829A0><key>armjlink.enu1</key></Toolbar-142829A0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>531</Bottom><Right>184</Right><x>-2</x><y>-2</y><xscreen>148</xscreen><yscreen>-897616</yscreen><sizeHorzCX>115625</sizeHorzCX><sizeHorzCY>-1418034754</sizeHorzCY><sizeVertCX>145313</sizeVertCX><sizeVertCY>842022</sizeVertCY></Rect></Wnd3></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>531</Bottom><Right>146</Right><x>-2</x><y>-2</y><xscreen>148</xscreen><yscreen>132</yscreen><sizeHorzCX>115625</sizeHorzCX><sizeHorzCY>208531</sizeHorzCY><sizeVertCX>115625</sizeVertCX><sizeVertCY>842022</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>57</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>59</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>93207</sizeHorzCY><sizeVertCX>115625</sizeVertCX><sizeVertCY>208531</sizeVertCY></Rect></Wnd4></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
