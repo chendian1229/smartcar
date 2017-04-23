@@ -103,5 +103,11 @@ mode=0
 [Breakpoints2]
 Count=0
 [Aliases]
-Count=0
-SuppressDialog=0
+A0=_ "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\App\main.c" ""
+A1=_ "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\Chip\src\IAR\system_MK60DZ10.c" ""
+A2=_ "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\Chip\src\MK60_PIT.c" ""
+A3=_ "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\Chip\src\MK60_wdog.c" ""
+A4=_ "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\Chip\src\misc.c" ""
+A5=_ "C:\Users\Administrator\Desktop\直立程序 - 封装后 - 综合 - 简易方案\Lib\CMSIS\Inc\core_cm4.h" ""
+Count=6
+SuppressDialog=1

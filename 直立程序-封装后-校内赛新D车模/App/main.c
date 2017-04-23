@@ -85,11 +85,11 @@ void DMA0_IRQHandler();
 void PIT0_ISR();
 
 //调试开关... 
-//#define SWITCH_LCD_TUXIANG
-//#define SWITCH_LCD_MESSAGE
-//#define SWITCH_LCD_HUAXIAN
+#define SWITCH_LCD_TUXIANG
+#define SWITCH_LCD_MESSAGE
+#define SWITCH_LCD_HUAXIAN
 //#define SWITCH_UART_MESSAGE
-#define SWITCH_UART_LOOP_TIME
+//#define SWITCH_UART_LOOP_TIME
 
 void main()
 {
@@ -167,9 +167,6 @@ void main()
     
     //图像裁剪及二值化
     ChouQu_ErZhi(image_gray,image_binarized);
-    
-    //桶形失真矫正
-    //JiaoZheng(image_binarized,image_jzh);
     
     //显示图像
     #ifdef SWITCH_LCD_TUXIANG
@@ -541,7 +538,7 @@ void PIT0_ISR()
   }
   else
   {
-    car_speed=180;
+    car_speed=260;
   }
   Car_Control(car_speed);
 }

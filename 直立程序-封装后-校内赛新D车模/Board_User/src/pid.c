@@ -12,7 +12,7 @@ float Kp_sp=7;//速度PI控制 可以用的参数
 float Ki_sp=0;
 float Kd_sp=0;
 
-float Kp_dir=3.2;//方向PD控制
+float Kp_dir=4;//方向PD控制
 float Ki_dir=0;
 float Kd_dir=12*5/2;
 

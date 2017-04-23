@@ -29,7 +29,7 @@
         </option>
         <option>
           <name>Variant</name>
-          <version>21</version>
+          <version>20</version>
           <state>40</state>
         </option>
         <option>
@@ -60,7 +60,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>3</version>
+          <version>2</version>
           <state>5</state>
         </option>
         <option>
@@ -137,12 +137,12 @@
         </option>
         <option>
           <name>GFPUCoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>40</state>
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -622,7 +622,6 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
-        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
@@ -982,7 +981,7 @@
         </option>
         <option>
           <name>Variant</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -1013,7 +1012,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>3</version>
+          <version>2</version>
           <state>0</state>
         </option>
         <option>
@@ -1090,12 +1089,12 @@
         </option>
         <option>
           <name>GFPUCoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -1575,7 +1574,6 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
-        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
@@ -1935,7 +1933,7 @@
         </option>
         <option>
           <name>Variant</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -1966,7 +1964,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>3</version>
+          <version>2</version>
           <state>0</state>
         </option>
         <option>
@@ -2043,12 +2041,12 @@
         </option>
         <option>
           <name>GFPUCoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -2528,7 +2526,6 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
-        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
@@ -2888,7 +2885,7 @@
         </option>
         <option>
           <name>Variant</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -2919,7 +2916,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>3</version>
+          <version>2</version>
           <state>0</state>
         </option>
         <option>
@@ -2996,12 +2993,12 @@
         </option>
         <option>
           <name>GFPUCoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -3481,7 +3478,6 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
-        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
@@ -3841,7 +3837,7 @@
         </option>
         <option>
           <name>Variant</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -3872,7 +3868,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>3</version>
+          <version>2</version>
           <state>0</state>
         </option>
         <option>
@@ -3899,7 +3895,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>7.30.3.8061</state>
+          <state>7.20.2.7418</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -3949,12 +3945,12 @@
         </option>
         <option>
           <name>GFPUCoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -4435,7 +4431,6 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
-        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>
@@ -4795,7 +4790,7 @@
         </option>
         <option>
           <name>Variant</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -4826,7 +4821,7 @@
         </option>
         <option>
           <name>FPU</name>
-          <version>3</version>
+          <version>2</version>
           <state>0</state>
         </option>
         <option>
@@ -4903,12 +4898,12 @@
         </option>
         <option>
           <name>GFPUCoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
+          <version>20</version>
           <state>39</state>
         </option>
         <option>
@@ -5387,7 +5382,6 @@
       <data>
         <extensions></extensions>
         <cmdline></cmdline>
-        <hasPrio>0</hasPrio>
       </data>
     </settings>
     <settings>

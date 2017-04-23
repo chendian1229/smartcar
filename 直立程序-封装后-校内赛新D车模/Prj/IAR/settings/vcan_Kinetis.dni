@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=1286488418
+Checksum=682740750
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -29,8 +29,8 @@ OverrideDefaultClocks=0
 CpuClock=72000000
 ClockAutoDetect=0
 ClockWanted=2000000
-JtagSpeed=2000000
-Prescaler=36
+JtagSpeed=2250000
+Prescaler=32
 TimeStampPrescIndex=0
 TimeStampPrescData=0
 PcSampCYCTAP=1
@@ -41,12 +41,6 @@ ITMportsEnable=0
 ITMportsTermIO=0
 ITMportsLogFile=0
 ITMlogFile=$PROJ_DIR$\ITM.log
-[Trace1]
-Enabled=0
-ShowSource=1
-[Trace2]
-Enabled=0
-ShowSource=0
 [SWOTraceWindow]
 PcSampling=0
 InterruptLogs=0
@@ -109,10 +103,12 @@ mode=0
 [Breakpoints2]
 Count=0
 [Aliases]
-A0=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 简易方案\Board\src\VCAN_LCD.c" ""
-A1=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 无畸变矫正算法\App\main.c" ""
-A2=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 无畸变矫正算法\Lib\CMSIS\Inc\core_cm4.h" ""
-A3=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 斜率判断方案 - 全新阈值方案\App\main.c" ""
-A4=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 斜率判断方案 - 全新阈值方案\Lib\CMSIS\Inc\core_cm4.h" ""
-Count=5
+A0=_ "C:\Users\YangBing\Desktop\校内赛程序\App\main.c" ""
+A1=_ "C:\Users\YangBing\Desktop\校内赛程序\Lib\CMSIS\Inc\core_cm4.h" ""
+A2=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 简易方案\Board\src\VCAN_LCD.c" ""
+A3=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 无畸变矫正算法\App\main.c" ""
+A4=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 无畸变矫正算法\Lib\CMSIS\Inc\core_cm4.h" ""
+A5=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 斜率判断方案 - 全新阈值方案\App\main.c" ""
+A6=_ "E:\文件资料\项目进行时\17年上  大三下  智能车\兵的程序\直立程序 - 封装后 - 综合 - 斜率判断方案 - 全新阈值方案\Lib\CMSIS\Inc\core_cm4.h" ""
+Count=7
 SuppressDialog=0
