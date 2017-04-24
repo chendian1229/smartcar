@@ -11,16 +11,6 @@ uint8 midline_flag;
 uint8 midline_value;
 float car_speed;
 
-//*************************
-
-//*************************
-
-
-
-
-
-
-
 void main()
 {
   //LCD初始化
@@ -116,7 +106,7 @@ void main()
         LCD_point(site_spx,GREEN);
       }
       
-      
+
       //画出最中间两列线（93 94）
       Site_t site_zzjczx_l;//最中间垂直线l
       Site_t site_zzjczx_r;//最中间垂直线r

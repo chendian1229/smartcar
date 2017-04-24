@@ -6033,6 +6033,9 @@
     <file>
       <name>$PROJ_DIR$\..\..\Lib\ftoa.c</name>
     </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Lib\UART_LCD.c</name>
+    </file>
   </group>
 </project>
 

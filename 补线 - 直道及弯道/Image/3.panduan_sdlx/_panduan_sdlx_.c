@@ -93,6 +93,12 @@ SaiDao_type_m  pdsdkx(uint8 img_bin[][IMG_W_USED])
   gpio_init (PTD15,GPO,1);      //指示赛道类型的灯      D15为直道和弯道
   gpio_init (PTE26,GPO,1);      //                      E26为十字
   
+  printf("n0.val=%d",(int8)(K_l.value*10));
+  UART_End();
+  printf("n1.val=%d",(int8)(K_r.value*10));
+  UART_End();
+  //printf("hello");
+  
   if( (K_l.exist==1)&&(K_r.exist==1) )
   {
     if(leixing_flag==1)
