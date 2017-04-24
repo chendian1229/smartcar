@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>vcan_Kinetis/DZ10_Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>224</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      <PreferedWindows><Position>1</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>18</ColumnWidth0><ColumnWidth1>917</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows><ColumnWidth0>21</ColumnWidth0><ColumnWidth1>1220</ColumnWidth1></Debug-Log><Select-Ambiguous-Definitions><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Select-Ambiguous-Definitions><Find-All-Declarations><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Select-Ambiguous-Definitions</Factory></Window></Windows></PreferedWindows><ColumnWidth0>440</ColumnWidth0><ColumnWidth1>62</ColumnWidth1><ColumnWidth2>754</ColumnWidth2></Find-All-Declarations></Static>
+    <Windows>
+      
+      
+    <Wnd0><Tabs><Tab><Identity>TabID-25510-19912</Identity><TabName>Workspace</TabName><Factory>Workspace</Factory><Session><NodeDict><ExpandedNode>vcan_Kinetis</ExpandedNode><ExpandedNode>vcan_Kinetis/Chip</ExpandedNode><ExpandedNode>vcan_Kinetis/Control</ExpandedNode><ExpandedNode>vcan_Kinetis/Control/Lib</ExpandedNode><ExpandedNode>vcan_Kinetis/Image</ExpandedNode><ExpandedNode>vcan_Kinetis/Image/2.small_func</ExpandedNode><ExpandedNode>vcan_Kinetis/Image/3.panduan_sdlx</ExpandedNode><ExpandedNode>vcan_Kinetis/Image/4.buxian_chengxu</ExpandedNode><ExpandedNode>vcan_Kinetis/LIB</ExpandedNode><ExpandedNode>vcan_Kinetis/Output</ExpandedNode></NodeDict></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd0></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>13</YPos2><SelStart2>645</SelStart2><SelEnd2>645</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Chip\inc\common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>537</YPos2><SelStart2>26849</SelStart2><SelEnd2>26855</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Image\3.panduan_sdlx\_panduan_sdlx_.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>83</YPos2><SelStart2>3136</SelStart2><SelEnd2>3136</SelEnd2></Tab><ActiveTab>2</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Image\3.panduan_sdlx\_panduan_sdlx_.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>65</SelStart2><SelEnd2>65</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Image\2.small_func\i_f_edge_sp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>755</SelStart2><SelEnd2>755</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Lib\ftoa.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>435</SelStart2><SelEnd2>439</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\App\Inc\include.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>16</YPos2><SelStart2>1681</SelStart2><SelEnd2>1681</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-055E7718><key>iaridepm.enu1</key></Toolbar-055E7718></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>640</Bottom><Right>315</Right><x>-2</x><y>-2</y><xscreen>217</xscreen><yscreen>264</yscreen><sizeHorzCX>158858</sizeHorzCX><sizeHorzCY>385401</sizeHorzCY><sizeVertCX>232064</sizeVertCX><sizeVertCY>937226</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
