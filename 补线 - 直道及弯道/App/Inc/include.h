@@ -48,6 +48,6 @@
 #include "_buxian_chengxu_.h"
 #include "ftoa.h"
 #include "_panduan_sdlx_.h"
-#include "UART_LCD.h"
+
 
 #endif  //__INCLUDE_H__

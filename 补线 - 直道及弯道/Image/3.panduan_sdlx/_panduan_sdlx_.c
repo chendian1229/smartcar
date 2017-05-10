@@ -1,14 +1,16 @@
 #include "common.h"
 #include "_small_func_.h"
-#include "include.h"
+#include "UART_LCD.h"
 #include "_panduan_sdlx_.h"
+#include  "MK60_gpio.h"
 
 zb_imgarr_t l_end_img,r_end_img;        //定义最后一行坐标与上一帧最后一行
 zb_imgarr_t l_end_last_img,r_end_last_img;    
 
-#define Hang_3    50     //        打方向
+
+#define Hang_3    40     //        打方向
 #define Hang_1    70     //         求斜率
-#define Hang_end  79     //        最后一行，判断十字
+#define Hang_end  75     //        最后一行，判断十字
 
 uint8 f_l_1;//第 1 行
 uint8 left_1;
@@ -48,7 +50,7 @@ SaiDao_type_m  pdsdkx(uint8 img_bin[][IMG_W_USED])
 
   
   f__edge_sp_czj(img_bin[Hang_1],93,&f_l_1,&left_1,&f_r_1,&right_1);//水平扫第一行
-  f__edge_sp_czj(img_bin[Hang_3],93,&f_l_3,&left_3,&f_r_3,&right_3);//水平扫第三行
+  f__edge_sp_czj(img_bin[Hang_3],93-20,&f_l_3,&left_3,&f_r_3,&right_3);//水平扫第三行
   f__edge_sp_czj(img_bin[Hang_end],93,&f_l_end,&left_end,&f_r_end,&right_end);//水平扫最后一行
      
       
@@ -85,47 +87,51 @@ SaiDao_type_m  pdsdkx(uint8 img_bin[][IMG_W_USED])
   K_l=calcu_slope(l_1_math,l_3_math);    //计算左斜率
   K_r=calcu_slope(r_1_math,r_3_math);    //计算右斜率
   
-//  Site_t P_xielv_l= {0,0};             //图像显示斜率
-//  Site_t P_xielv_r= {104,0};
-//  LCD_str(P_xielv_l,itoa((int32)K_l.value),BLACK,WHITE);
-//  LCD_str(P_xielv_r,itoa((int32)K_r.value),BLACK,WHITE);
-  
   gpio_init (PTD15,GPO,1);      //指示赛道类型的灯      D15为直道和弯道
   gpio_init (PTE26,GPO,1);      //                      E26为十字
   
-  printf("n0.val=%d",(int8)(K_l.value*10));
+/*-------------------串口屏显示------------------------*/
+  printf("n0.val=%d",(int8)(K_l.value*10));     //左斜率
   UART_End();
-  printf("n1.val=%d",(int8)(K_r.value*10));
-  UART_End();
-  //printf("hello");
   
-  if( (K_l.exist==1)&&(K_r.exist==1) )
+  printf("n1.val=%d",(int8)(K_r.value*10));     //右斜率
+  UART_End();
+  
+  printf("n2.val=%d",f_l_3);
+  UART_End();
+  
+  printf("n3.val=%d",f_r_3);
+  UART_End();
+//  //printf("hello");
+/*-----------------------------------------------------*/  
+  if(((f_l_3==1)||(f_r_3==1))&&(leixing_flag==1))    //满足条件则为直道、弯道、障碍、起跑线
   {
-    if(leixing_flag==1)
+    //判断为直道 
+    if( (K_l.value>0)&&(K_r.value<0))   
     {
-      //判断直道和弯道 
-      if( (K_l.value>0)&&(K_r.value<0))
-      {
-        gpio_set(PTD15, 0);
-        sdlx_return=ZhiDao;
-
-      }
-      if(((K_l.value>0)&&(K_r.value>0))||((K_l.value<0)&&(K_r.value<0)))
-      {
-        gpio_set(PTD15, 0);
-        sdlx_return=WanDao;          
-      }
+      gpio_set(PTD15, 0);
+      sdlx_return=ZhiDao;
     }
-    if( (leixing_flag==1)||(leixing_flag==2) )
+    
+    //判断为弯道 
+    if(((K_l.value>0)&&(K_r.value>0))||((K_l.value<0)&&(K_r.value<0))) 
     {
-      //判断十字
-      if(((K_l.value<0)&&(K_r.value>0))||(leixing_flag==2))
-      {
-        leixing_flag=2;
-        gpio_set(PTE26,0); 
+      gpio_set(PTD15, 0);
+      sdlx_return=WanDao;          
+    }
+    
+    
+  }
+  else   //((f_l_4==1)&&(f_r_4==1))                         //else中为环形、十字，第三行丢线
+  {
+    //判断为十字
+    if(((K_l.value<0)&&(K_r.value>0))||(leixing_flag==2))
+    {
+        leixing_flag=2;          //赛道类型置为2，保持十字直到最后一行宽度小于100
+        gpio_set(PTE26,0);
         
-        //十字补线程序
-
+        sdlx_return=ShiZi;
+          
         kuandu_last=r_end_last_img.j-l_end_last_img.j;
         kuandu=r_end_img.j-l_end_img.j;
         if((kuandu_last>100)&&(kuandu<100))
@@ -133,10 +139,49 @@ SaiDao_type_m  pdsdkx(uint8 img_bin[][IMG_W_USED])
           leixing_flag=1;
         }
         
-      }
     }
     
+    
   }
+  
+  
+  
+//    if(leixing_flag==1)
+//    {
+//      //判断直道和弯道 
+//      if( (K_l.value>0)&&(K_r.value<0))
+//      {
+//        gpio_set(PTD15, 0);
+//        sdlx_return=ZhiDao;
+//
+//      }
+//      if(((K_l.value>0)&&(K_r.value>0))||((K_l.value<0)&&(K_r.value<0)))
+//      {
+//        gpio_set(PTD15, 0);
+//        sdlx_return=WanDao;          
+//      }
+//    }
+//    if( (leixing_flag==1)||(leixing_flag==2) )
+//    {
+//      //判断十字
+//      if(((K_l.value<0)&&(K_r.value>0))||(leixing_flag==2))
+//      {
+//        leixing_flag=2;
+//        gpio_set(PTE26,0); 
+//        
+//        //十字补线程序
+//
+//        kuandu_last=r_end_last_img.j-l_end_last_img.j;
+//        kuandu=r_end_img.j-l_end_img.j;
+//        if((kuandu_last>100)&&(kuandu<100))
+//        {
+//          leixing_flag=1;
+//        }
+//        
+//      }
+//    }
+    
+
 
       
 
