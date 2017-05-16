@@ -36,12 +36,12 @@ void f__edge_sp_czj(uint8 line[],uint8 range,uint8 *flag_l,uint8 *left,uint8 *fl
     //往右边扫
     if( (*flag_r)==0 )
     {
-      if( line[94+Cj-1]==line[94+Cj] )
+      if( line[93+Cj-1]==line[93+Cj] )
       {
       }
       else
       {
-        *right=(94+Cj);
+        *right=(93+Cj);
         *flag_r=1;
       }
     }
@@ -55,7 +55,7 @@ void f__edge_sp_czj(uint8 line[],uint8 range,uint8 *flag_l,uint8 *left,uint8 *fl
   if(*flag_l==0)
     *left =93-range;
   if(*flag_r==0)
-    *right=94+range;
+    *right=93+range;
 }
 /**********************************************************************************************
 名    称：                水平从某点开始同时往两边“找上升沿”函数
